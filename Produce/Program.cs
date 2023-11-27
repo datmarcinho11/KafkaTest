@@ -8,7 +8,6 @@ class Program
 {
     static void Main()
     {
-
         // Consumer
         var configC = new ConsumerConfig
         {
@@ -20,7 +19,7 @@ class Program
         {
             consumer.Subscribe("test-topic");
 
-            Console.WriteLine("Consumer: ");
+            Console.WriteLine("Consumer App: ");
 
             while (true)
             {

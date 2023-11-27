@@ -14,7 +14,7 @@ class Program
         // Producer
         using (var producer = new ProducerBuilder<Null, string>(config).Build())
         {
-            Console.WriteLine("Producer : ");
+            Console.WriteLine("Producer App : ");
 
             for (int i = 0; i < 10; i++)
             {
